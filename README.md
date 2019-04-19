@@ -1,6 +1,8 @@
 # Cordova Firestore Plugin
 A Google Firebase Firestore plugin to enable realtime synchronisation between app and cloud and automatically handle limited connectivity.
 
+This plugin aims at being a drop-in replacement for the firebase-js-sdk to make supporting the web platform easier, and to ease the transition for cordova applications built with the javascript SDK.
+
 # What is Firestore?
 From the Google documentation (https://firebase.google.com/docs/firestore/):
 
@@ -11,7 +13,7 @@ This plugin supports the following platforms:
 
 - Android
 - iOS
-- Browser
+- Browser # As of version 2.0 browser support is deprecated and will be dropped or refactored in the future in favor of a transparent firebase-js-sdk implementation
 
 # Installation
 ## Install the plugin
@@ -86,7 +88,7 @@ service cloud.firestore {
 }
 ```
 
-Authenticating users is beyond the scope of this plugin, but the `cordova-plugin-firebaseui-auth` is one such plugin you can use to achieve this which will work alongside this plugin.
+Authenticating users is beyond the scope of this plugin, but the `cordova-plugin-firebase-authentication` is one such plugin you can use to achieve this which will work alongside this plugin.
 
 ## Dependencies
 ### Promises
@@ -139,6 +141,7 @@ In the above example this is being used for the browser version, but it can also
 ## Firestore
 - collection()
 - runTransaction(updateFunction)
+- batch # NOT SUPPORTED
 
 ## DocumentSnapshot and QueryDataSnapshot
 - data()
@@ -176,7 +179,7 @@ In the above example this is being used for the browser version, but it can also
 ## CollectionReference (inherits from Query)
 - add(data)
 - id
-- doc(id)
+- doc(<id>)
 
 ## Transaction
 - get()
