@@ -1,6 +1,6 @@
 {
   "name": "cordova-firestore-dropin",
-  "version": "2.0.0-2",
+  "version": "2.0.1",
   "cordova": {
     "id": "cordova-firestore-dropin",
     "platforms": [
@@ -43,7 +43,5 @@
   "scripts": {
     "test": "jest"
   },
-  "dependencies": {
-    "plugman": "^3.0.1"
-  }
+  "dependencies": {}
 }
