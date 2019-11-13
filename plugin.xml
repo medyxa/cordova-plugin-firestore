@@ -128,7 +128,7 @@
         <source url="https://github.com/CocoaPods/Specs.git"/>
       </config>
       <pods use-frameworks="true">
-        <pod name="Firebase/Firestore" spec="~> 6.3.0" />
+        <pod name="Firebase/Firestore" spec="~> 1.7.0" />
       </pods>
     </podspec>
 
