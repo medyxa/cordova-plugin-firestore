@@ -1,6 +1,6 @@
 {
   "name": "cordova-firestore-dropin-medyx",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "cordova": {
     "id": "cordova-firestore-dropin-medyx",
     "platforms": [
