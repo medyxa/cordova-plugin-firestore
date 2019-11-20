@@ -1,7 +1,8 @@
 package uk.co.reallysmall.cordova.plugin.firestore;
 
-import android.support.annotation.Nullable;
 import android.util.Log;
+
+import androidx.annotation.Nullable;
 
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.EventListener;

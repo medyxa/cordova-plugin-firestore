@@ -1,10 +1,10 @@
 package uk.co.reallysmall.cordova.plugin.firestore;
 
-
-import android.support.annotation.NonNull;
 import android.util.Log;
 import android.webkit.ValueCallback;
 import android.webkit.WebView;
+
+import androidx.annotation.NonNull;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;

@@ -103,12 +103,12 @@ function createInstance(options) {
 
 function initialise(options) {
   return loadJs({
-    'url': 'https://www.gstatic.com/firebasejs/5.5.0/firebase-app.js',
+    'url': 'https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js',
     'package': 'firebase.app'
   })
   .then(function() {
     return loadJs({
-      'url': 'https://www.gstatic.com/firebasejs/5.5.0/firebase-firestore.js',
+      'url': 'https://www.gstatic.com/firebasejs/7.4.0/firebase-firestore.js',
       'package': 'firebase.firestore'
     });
   })
