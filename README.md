@@ -1,4 +1,4 @@
-# Cordova Firestore Plugin
+# Cordova Firestore Plugin (Medyx)
 A Google Firebase Firestore plugin to enable realtime synchronisation between app and cloud and automatically handle limited connectivity.
 
 This plugin aims at being a drop-in replacement for the firebase-js-sdk to make supporting the web platform easier, and to ease the transition for cordova applications built with the javascript SDK.
@@ -19,22 +19,19 @@ This plugin supports the following platforms:
 ## Install the plugin
 
 ```bash
-cordova plugin add cordova-plugin-firestore --save
+cordova plugin add cordova-firestore-dropin-medyx --save
 ```
 
 or
 
 ```bash
-phonegap plugin add cordova-plugin-firestore
+phonegap plugin add cordova-firestore-dropin-medyx
 ```
 
 ### Optional installation variables for Android
 
-#### ANDROID_FIREBASE_CORE_VERSION
-Version of `com.google.firebase:firebase-core`. This defaults to `16.0.3`.
-
 #### ANDROID_FIREBASE_FIRESTORE_VERSION
-Version of `com.google.firebase:firebase-firestore`. This defaults to `17.1.0`.
+Version of `com.google.firebase:firebase-firestore`. This defaults to `21.3.0`.
 
 You can find the latest versions of these [here](https://firebase.google.com/docs/android/setup#available_libraries).
 

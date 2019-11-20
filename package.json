@@ -1,8 +1,8 @@
 {
-  "name": "cordova-firestore-dropin",
-  "version": "2.0.1",
+  "name": "cordova-firestore-dropin-medyx",
+  "version": "2.3.0",
   "cordova": {
-    "id": "cordova-firestore-dropin",
+    "id": "cordova-firestore-dropin-medyx",
     "platforms": [
       "android",
       "ios",
@@ -21,8 +21,8 @@
   "description": "A Google Firebase Firestore plugin aiming at being a drop-in replacement for the firebase-js-sdk",
   "devDependencies": {
     "grunt": "^1.0.4",
-    "grunt-contrib-jshint": "^1.1.0",
-    "jest": "^24.7.1"
+    "grunt-contrib-jshint": "^2.1.0",
+    "jest": "^24.9.0"
   },
   "repository": {
     "type": "git",
