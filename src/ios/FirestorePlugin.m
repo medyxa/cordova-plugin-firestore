@@ -6,6 +6,9 @@
 #include <asl.h>
 #include <pthread.h>
 
+@import FirebaseCore;
+@import FirebaseFirestore;
+
 @implementation FirestorePlugin
 
 

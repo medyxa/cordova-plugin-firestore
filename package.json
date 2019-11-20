@@ -1,6 +1,6 @@
 {
   "name": "cordova-firestore-dropin-medyx",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "cordova": {
     "id": "cordova-firestore-dropin-medyx",
     "platforms": [
@@ -26,14 +26,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jggc/cordova-plugin-firestore.git"
+    "url": "git+https://github.com/medyxa/cordova-plugin-firestore.git"
   },
   "author": "Richard Windley <richard.windley@gmail.com> (http://www.reallysmall.co.uk)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/jggc/cordova-plugin-firestore/issues"
+    "url": "https://github.com/medyxa/cordova-plugin-firestore"
   },
-  "homepage": "https://github.com/jggc/cordova-plugin-firestore",
+  "homepage": "https://github.com/medyxa/cordova-plugin-firestore",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
