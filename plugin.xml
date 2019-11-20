@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-firestore-dropin-medyx" version="3.0.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-firestore-dropin-medyx" version="3.1.0">
   <name>Cordova Firestore Plugin</name>
   <description>Google Firebase Firestore</description>
   <license>MIT</license>
@@ -126,6 +126,7 @@
         <source url="https://github.com/CocoaPods/Specs.git"/>
       </config>
       <pods use-frameworks="true">
+        <pod name="FirebaseCore" spec="~> 6.4.0" />
         <pod name="FirebaseFirestore" spec="~> 1.8.1" />
       </pods>
     </podspec>

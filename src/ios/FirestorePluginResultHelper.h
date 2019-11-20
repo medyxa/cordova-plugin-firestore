@@ -10,7 +10,7 @@
 
 #import <Cordova/CDVPlugin.h>
 
-@import Firebase;
+@import FirebaseFirestore;
 
 @interface FirestorePluginResultHelper : NSObject
 
