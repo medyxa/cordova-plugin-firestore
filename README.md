@@ -1,4 +1,7 @@
 # Cordova Firestore Plugin (Medyx)
+
+[![NPM version][npm-version]][npm-url] [![NPM downloads][npm-downloads]][npm-url]
+
 A Google Firebase Firestore plugin to enable realtime synchronisation between app and cloud and automatically handle limited connectivity.
 
 This plugin aims at being a drop-in replacement for the firebase-js-sdk to make supporting the web platform easier, and to ease the transition for cordova applications built with the javascript SDK.
@@ -19,13 +22,13 @@ This plugin supports the following platforms:
 ## Install the plugin
 
 ```bash
-cordova plugin add cordova-firestore-dropin-medyx --save
+cordova plugin add @medyx/cordova-plugin-firestore --save
 ```
 
 or
 
 ```bash
-phonegap plugin add cordova-firestore-dropin-medyx
+phonegap plugin add @medyx/cordova-plugin-firestore
 ```
 
 ### Optional installation variables for Android
@@ -256,3 +259,7 @@ I have learnt a number of things whilst implementing this:
 - The documentation states that the database cannot be initialised in a seperate thread when using persistence. In my experience this should say it cannot be *used* in multiple threads.
 - When used on Android ensure that at least `com.google.gms:google-services:3.1.1` is used in build dependencies. Earlier versions did not work for me.
 - Yes, I did spell initialise() with an 's' - Original plugin developer @ReallySmallSoftware is from the UK
+
+[npm-url]: https://www.npmjs.com/package/@medyx/cordova-plugin-firestore
+[npm-version]: https://img.shields.io/npm/v/@medyx/cordova-plugin-firestore.svg
+[npm-downloads]: https://img.shields.io/npm/dm/@medyx/cordova-plugin-firestore.svg

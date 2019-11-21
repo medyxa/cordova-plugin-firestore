@@ -1,8 +1,8 @@
 {
-  "name": "cordova-firestore-dropin-medyx",
+  "name": "@medyx/cordova-plugin-firestore",
   "version": "3.1.0",
   "cordova": {
-    "id": "cordova-firestore-dropin-medyx",
+    "id": "@medyx/cordova-plugin-firestore",
     "platforms": [
       "android",
       "ios",
